@@ -1,0 +1,10 @@
+class Plugins::CamaAutocomplete::PostsController < Plugins::CamaAutocomplete::FrontController
+  def search
+    respond_to do |format|
+      format.json do
+        items = current_site.the_posts(params[:type])
+        @posts = items.where("LOWER(title) LIKE ? OR LOWER(content_filtered) LIKE ?", "%#{params[:term]}%", "%#{params[:term]}%")
+      end
+    end
+  end
+end
