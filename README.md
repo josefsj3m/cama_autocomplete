@@ -4,7 +4,7 @@
 
 * [Working Demo](http://www.panamebusinesscenter.com)
 
-##### Installation
+#### Installation
 
 1. Create a Camaleon CMS Project
 
@@ -27,7 +27,6 @@
 * <%= javascript_include_tag plugin_asset_path("main", "cama_autocomplete") %>
 
 7. Copy this code and paste in your page
-
 ```
   <div class="posts-search">
     <input type="text" id="posts-search-txt" autofocus>
@@ -35,5 +34,4 @@
     <div class="results" id="posts-search-results"></div>
   </div>
 ```
-
 * value="service" can also be any posts type
