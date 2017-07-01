@@ -4,6 +4,8 @@
 
 * [Working Demo](http://www.panamebusinesscenter.com)
 
+* [Camaleon CMS Plugin](http://camaleon.tuzitio.com/store/plugins/cama_autocomplete)
+
 ### Installation
 
 1. Create a Camaleon CMS Project
