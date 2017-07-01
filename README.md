@@ -28,10 +28,12 @@
 
 7. Copy this code and paste in your page
 
+```
   <div class="posts-search">
     <input type="text" id="posts-search-txt" autofocus>
     <input type="hidden" id="posts-search-type" value="service">
     <div class="results" id="posts-search-results"></div>
   </div>
+```
 
 * value="service" can also be any posts type
