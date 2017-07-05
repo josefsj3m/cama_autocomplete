@@ -1,41 +1,28 @@
-## Example Cama Autocomplete Plugin
+# CamaAutocomplete
+Short description and motivation.
 
-* Source code created by [MyTeamDesigners](http://www.myteamdesigners.com)
+## Usage
+How to use my plugin.
 
-* [Working Demo](http://www.panamebusinesscenter.com)
+## Installation
+Add this line to your application's Gemfile:
 
-* [Camaleon CMS Plugin](http://camaleon.tuzitio.com/store/plugins/cama_autocomplete)
-
-### Installation
-
-1. Create a Camaleon CMS Project
-
-2. Add this to your Gemfile
-
-* gem 'cama_autocomplete', github:  'gaelfokou/cama_autocomplete'
-
-3. Open Console
-
-* bundle install
-
-4. Go to your admin panel -> plugins
-
-5. Enable plugin Cama Autocomplete
-
-6. Add this to your layout
-
-* <%= stylesheet_link_tag plugin_asset_path("main", "cama_autocomplete") %>
-
-* <%= javascript_include_tag plugin_asset_path("main", "cama_autocomplete") %>
-
-7. Copy this code and paste in your page
-
-```
-  <div class="posts-search">
-    <input type="text" id="posts-search-txt" autofocus>
-    <input type="hidden" id="posts-search-type" value="service">
-    <div class="results" id="posts-search-results"></div>
-  </div>
+```ruby
+gem 'cama_autocomplete'
 ```
 
-* value="service" can also be any posts type
+And then execute:
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+```bash
+$ gem install cama_autocomplete
+```
+
+## Contributing
+Contribution directions go here.
+
+## License
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
