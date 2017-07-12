@@ -33,14 +33,21 @@
    <%= javascript_include_tag plugin_asset_path("main", "cama_autocomplete") %>
 ```
 
+Remove the lignes bellow in your javascript
+
+//= require jquery
+//= require jquery_ujs
+
 7. Copy this code and paste in your page
 
 ```html
    <div class="posts-search">
      <input type="text" id="posts-search-txt" autofocus>
-     <input type="hidden" id="posts-search-type" value="service">
+     <input type="hidden" id="posts-search-type" value="post">
      <div class="results" id="posts-search-results"></div>
    </div>
 ```
 
-value="service" can also be any posts type
+You can choose any posts type for the value bellow
+
+value="post"
