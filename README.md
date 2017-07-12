@@ -33,7 +33,7 @@
    <%= javascript_include_tag plugin_asset_path("main", "cama_autocomplete") %>
 ```
 
-Remove the lignes bellow in your javascript
+Remove the lignes bellow in your javascript file
 
 //= require jquery
 //= require jquery_ujs
