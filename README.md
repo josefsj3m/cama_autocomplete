@@ -48,6 +48,6 @@ Remove the lignes bellow in your javascript
    </div>
 ```
 
-You can choose any posts type for the value bellow
+Choose any posts type for the value bellow
 
 value="post"
