@@ -33,6 +33,14 @@
    <%= javascript_include_tag plugin_asset_path("main", "cama_autocomplete") %>
 ```
 
+```javascript
+   <script type="text/javascript">
+     $(document).ready(function() {
+       new app.Posts;
+     });
+   </script>
+```
+
 Remove the lignes bellow in your javascript file
 
 //= require jquery
