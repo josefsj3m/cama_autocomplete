@@ -43,8 +43,10 @@
 
 Remove the lignes bellow in your javascript file
 
-//= require jquery
-//= require jquery_ujs
+```javascript
+   //= require jquery
+   //= require jquery_ujs
+```
 
 7. Copy this code and paste in your page
 
@@ -58,4 +60,6 @@ Remove the lignes bellow in your javascript file
 
 Choose any posts type for the value bellow
 
-value="post"
+```html
+   <input type="hidden" id="posts-search-type" value="post">
+```
