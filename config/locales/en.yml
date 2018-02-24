@@ -1,0 +1,17 @@
+en:
+  cama_autocomplete:
+    settings: 'Settings'
+    settings_saved: 'Settings Saved Successfully'
+    views:
+      admin:
+        index:
+          panel_title: 'Title'
+          panel_body: 'Plugin ready to use in admin panel!'
+        settings:
+          panel_title: 'Autocomplete Plugin Settings'
+          option_label: 'Option Setting'
+          meta_label: 'Meta Setting'
+          save_settings: 'Save'
+      front:
+        index:
+          title: 'Plugin ready to use! in frontend.'

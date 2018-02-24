@@ -1,6 +1,6 @@
 {
   "title": "Cama Autocomplete",
-  "descr": "This is the plugin built with Camaleon CMS",
+  "descr": "This is the plugin Autocomplete",
   "key": "cama_autocomplete", // must be the name of the folder of your plugin, sample: app/views/plugins/<my_plugin> ==> 'my_plugin'
   "helpers": [
     "Plugins::CamaAutocomplete::MainHelper"

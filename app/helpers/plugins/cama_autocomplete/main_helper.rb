@@ -24,6 +24,6 @@ module Plugins::CamaAutocomplete::MainHelper
   # args: {plugin (Hash), links (Array)}
   # permit to add unlimmited of links...
   def cama_autocomplete_on_plugin_options(args)
-    args[:links] << link_to('Settings', admin_plugins_cama_autocomplete_settings_path)
+    args[:links] << link_to(I18n.t('cama_autocomplete.settings'), admin_plugins_cama_autocomplete_settings_path)
   end
 end

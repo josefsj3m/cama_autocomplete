@@ -1,5 +1,7 @@
 ## Example Cama Autocomplete Plugin
 
+**This fork includes I18n support.**
+
 * Source code created by [MyTeamDesigners](http://www.myteamdesigners.com)
 
 * [Working Demo](http://www.panamebusinesscenter.com)

@@ -1,0 +1,17 @@
+pt-BR:
+  cama_autocomplete:
+    settings: 'Configurações'
+    settings_saved: 'Configurações salvas.'
+    views:
+      admin:
+        index:
+          panel_title: 'Título'
+          panel_body: 'Plugin pronto para uso no painel do Admin!'
+        settings:
+          panel_title: 'Configurações do Plugin Autocomplete'
+          option_label: 'Configuração da Opção'
+          meta_label: 'Configuração da Meta'
+          save_settings: 'Salvar'
+      front:
+        index:
+          title: 'Plugin pronto para uso no frontend!'
